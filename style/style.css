@@ -1,3 +1,14 @@
+    /* over */
+    .over{
+      position: absolute;
+      height: 100%;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #00000063;
+     }
+       /* over */
 /* start navigation */
 .navbar{
     text-transform: uppercase;
@@ -12,7 +23,7 @@
   .navbar-dark .navbar-nav .nav-link {
     color: #fff;
   }
-  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .nav-link.active,
   .navbar-dark .navbar-nav .nav-link:hover {
     color: red;
   }
@@ -24,7 +35,7 @@
       width: 100%;
       height: 100vh;
       display: table;
-      z-index: -1;
+      z-index: 1;
     }
     .content {
       clip: rect(0, auto, 100vh, 0);
@@ -56,6 +67,8 @@
       padding-bottom: 1rem;
       text-shadow:  3px 3px 3px black;
   }
+ 
+
   .button{
       background-color: black;
       border: 1px solid white;
@@ -67,4 +80,65 @@
       font-weight: 400;
   }
   /* END HERO HEADER */
+  /*  Start testimonials Section  */
+
+  .Testimonals{
+    background-image: url(../images/Testimonial-bg-image_002.jpg);
+    background-size: cover;
+    position: relative;
+    margin: auto ;
+    width: 100%;
+    height: 70vh;  
+    padding-bottom: 4rem;  
+  }
+  .title h1 {
+    color: azure;
+    position: relative;
+    z-index: 1;
+    top: 4rem;
+  }
+  .conainer-testimonials{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .carousel-inner{
+    margin: auto;
+    color: seashell;
   
+  }
+  .img-area{
+    width: 120px;
+    height: 120px;
+    margin: 20px auto 0 ;
+    border: 1px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .img-area img{
+    width: 100%;
+  }
+  .testimonial-description{
+    padding: 5px ;
+    color: blanchedalmond;
+    
+  }
+  .testimonial-description h3 {
+
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    margin-top: 5px;
+  }
+  .testimonial-description p {
+    font-size: 18px;
+    margin: auto;
+    width: 70%;
+  }
+  .carousel-indicators{
+    margin-bottom: -35px;
+  }
+    /*  Start testimonials Section  */
