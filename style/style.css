@@ -39,9 +39,17 @@
 }
 
 .underline {
-    width: 100px;
+    width: 80px;
     height: 3px;
     background-color: black;
     margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+img{
+    width: 100%;
+}
+
+.first-row{
     margin-bottom: 32px;
 }
