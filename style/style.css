@@ -22,11 +22,13 @@
   }
   .navbar-dark .navbar-nav .nav-link {
     color: #fff;
+    padding-top: .8rem;
   }
-  .navbar-dark .nav-link.active,
+  .navbar-dark .navbar-nav .nav-link.active,
   .navbar-dark .navbar-nav .nav-link:hover {
-    color: red;
+    color: red!important;
   }
+
   
   /* end navigation */
   /* Start HERO HEADER */
@@ -95,7 +97,7 @@
     color: azure;
     position: relative;
     z-index: 1;
-    top: 4rem;
+    top: 2rem;
   }
   .conainer-testimonials{
     width: 100%;
