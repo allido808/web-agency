@@ -77,11 +77,53 @@
                <!-- ------------------ clients START -->
         <section class="clients">
 
-
-
-
-
+            <div class="containerC">
+                <h2 class="text-center font-weight-bold">Nos clients</h2>
+                <section class="customer-logos slider">
+                    <div class="slide"><img src="images/adidas.png" alt="logo"></div>
+                    <div class="slide"><img src="images/facebook.png" alt="logo"></div>
+                    <div class="slide"><img src="images/google.png" alt="logo"></div>
+                    <div class="slide"><img src="images/instagram.png" alt="logo"></div>
+                    <div class="slide"><img src="images/nike.png" alt="logo"></div>
+                    <div class="slide"><img src="images/twitter.png" alt="logo"></div>
+                    <div class="slide"><img src="images/uber.png" alt="logo"></div>
+                    <div class="slide"><img src="images/youtube.png" alt="logo"></div>
+                </section>
+            </div>
+        
+            <p class="copy text-center font-weight-bold">All Rights Reserved &copy; Make Dev</p>
             
+        
+            <script>
+            
+            $(document).ready(function(){
+                $('.customer-logos').slick({
+                    slidesToShow: 6,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 1500,
+                    arrows: false,
+                    dots: false,
+                    pauseOnHover:false,
+                    responsive: [{
+                        breakpoint: 768,
+                        setting: {
+                            slidesToShow:4
+                        }
+                    }, {
+                        breakpoint: 520,
+                        setting: {
+                            slidesToShow: 3
+                        }
+                    }]
+                });
+            });
+        
+            </script>
+
+
+
+
         </section>
                 <!-- ------------------ clients END -->
 
