@@ -43,6 +43,7 @@
   .text1{
 color: #34C4D3;
 font-size: bold;
+margin-left: 16%;
   }
 
   .colum{
@@ -60,3 +61,7 @@ font-size: bold;
     height: 100%;
     width: 200%;
 }
+
+
+
+
