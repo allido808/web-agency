@@ -10,12 +10,15 @@
 }
 .service-card-icon > i:hover {
     color: #64707b;
-    font-size: 25px;
+    font-size: 50px;
     padding-top: 30px;
 }
 
 .box-content{
     padding: 64px 0;
+}
+.box-second{
+    padding: 0 0 64px 0;
 }
 
 .service-card-info {
@@ -34,7 +37,7 @@
 .service-title {
     color: #41464B;
     font-size: 32px;
-    font-weight: 700;
+    /* font-weight: 700; */
     
 }
 
@@ -46,13 +49,43 @@
     margin-bottom: 32px;
 }
 
-img{
+ img{
     width: 100%;
-}
+} 
 
 .first-row{
     margin-bottom: 32px;
 }
+@media(max-width:770px){
+    .first-row >div{
+    padding-top: 24px;
+    }
+    .second-row{
+        display: none;
+    }
+}
+.project{
+    position: relative;
+}
+.project>a{
+    position: absolute;
+    color: #41464B;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 50%;
+    
+    background-color: white;
+    opacity: 0.8;
+    padding: 8px;
+    text-decoration: none;
+    float: right;
+}
+.project>a:hover{
+    color: #34C4D3;
+    background-color: #41464B;
+}
+
     /* over */
     .over{
       position: absolute;
