@@ -1,3 +1,334 @@
+
+/*==================Default values===========================
+  font-family : Roboto Condensed 
+
+  Code couleurs : 
+  #34C6D3 : boutons , icons ,links,lines & background
+  #41464B : Heading <h1> jusqu'a <h6>
+  #64707B : paragraphes
+  #FFF : texte avec un background noir 
+  #000 : il est toujours présent 
+
+*/
+:root {
+     --color-1: #34C6D3;
+    --color-2:#41464B;  
+    --color-3:#64707B;  
+    --color-black:#000;     
+    --color-white: #fff;    
+}
+
+/* start footer */
+
+a {
+    color: var(--color-1);
+}
+
+
+.content-left {
+
+}
+
+.logo-footer {
+    color: var(--color-white);
+    margin: 20px 0;
+    font-weight: 600;
+    font: bold;
+}
+
+.logo-d {
+    color: var(--color-1);
+}
+
+footer {
+    background-color: var(--color-3);
+}
+
+footer address , p {
+    color: var(--color-white);
+}
+
+.form-control {
+    margin: 10px 0;
+    background-color: var(--color-2);
+    border: none;
+    /* color: #fff;i !important */
+}
+
+.contact-titl{
+    color: var(--color-white);
+    margin: 20px 0;
+}
+
+form {
+    color: #fff;
+}
+
+.copyright {
+    background-color: var(--color-2);
+    
+}
+p {
+    margin: 0;
+    /* padding: 0; */
+}
+a {
+    margin: 0;
+  }
+.copyright  {
+    background-color: var(--color-2);
+    padding: 20px 0;
+}
+
+.contact {
+    height: 1000px;
+}
+
+.btn-contact {
+    background-color: var(--color-1);
+    padding: 5px;
+    color: var(--color-white);
+}
+
+.btn-contact:hover {
+    background: var(--color-white);
+    /* border: 2px solid var(--color-1); */
+    text-decoration: none;
+    padding: 5px;
+    color: var(--color-3);
+}
+
+.btn-send {
+    margin: 10px 0;
+}
+
+.nav i {
+    font-size: 40Px;
+}
+
+.nav-link:hover {
+    color: var(--color-white);
+}
+
+/* end footer */
+
+/* start section pricing */
+
+section.pricing {
+
+}
+  
+  .pricing .card {
+    margin: 20px 0;
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing hr {
+    margin: 1.5rem 0;
+  }
+  
+  .pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+  
+  .pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .pricing .card-price .period {
+    font-size: 0.8rem;
+  }
+  
+  .pricing ul li {
+    margin-bottom: 1rem;
+  }
+
+  .pricing .header-section .title {
+    font-weight: 700;
+    font-size: 45px;
+    margin: 50px 0;
+    text-align: center;
+}
+  
+  .pricing .text-muted {
+    opacity: 0.7;
+  }
+  
+  .pricing .btn {
+    font-size: 80%;
+    border-radius: 1rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    background-color: var(--color-1);
+    border: 0;
+    transition: all 0.2s;
+  }
+  
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+    .pricing .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+  }
+  
+
+/* end section pricing */
+
+/* start section Equipes */
+
+ p,a,h1,h2,h3,h4 {
+	margin: 0;
+	padding: 0;
+}
+
+.section-team {
+	font-family: "Poppins", sans-serif;
+	padding: 80px 0;
+}
+
+.section-team .header-section {
+	margin-bottom: 50px;
+}
+
+.section-team .header-section .small-title {
+    margin-bottom: 25px;
+	font-size: 16px;
+    font-weight: 500;
+    color: #3e64ff;
+}
+
+.section-team .header-section .title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.section-team .single-person {
+	margin-top: 30px;
+	padding: 30px;
+	background-color: #f6f9ff;
+	border-radius: 5px;
+}
+
+.section-team .single-person:hover {
+	background: #34C6D3;
+}
+
+.section-team .single-person .person-image {
+    position: relative;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border: 4px dashed transparent;
+    transition: padding .3s;
+}
+
+.section-team .single-person:hover .person-image {
+	padding: 12px;
+    border: 4px dashed #fff;
+}
+
+.section-team .single-person .person-image img {
+	width: 100%;
+    border-radius: 50%;
+}
+
+.section-team .single-person .person-image .icon {
+	position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #34C6D3;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.section-team .single-person:hover .person-image .icon {
+	background: none;
+	background-color: #fff;
+	color: #34C6D3;
+}
+
+.section-team .single-person .person-info .full-name {
+	margin-bottom: 10px;
+	font-size: 28px;
+    font-weight: 700;
+}
+
+.section-team .single-person .person-info .speciality {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #34C6D3;
+}
+
+.section-team .single-person:hover .full-name,
+.section-team .single-person:hover .speciality {
+	color: #fff;
+}
+
+/* End section Equipes */
+
+/* start section Nous continuons à augmenter */
+
+.learning .header-section .title {
+    font-weight: 700;
+    font-size: 45px;
+    margin: 50px 0;
+    text-align: center;
+    color: var(--color-black);
+}
+
+.learn {
+    padding: 20px 0;
+    margin-top: 100px;
+    background: var(--color-white);
+    text-align: center;
+}
+
+.stats-item {
+    margin-bottom: 50px;
+}
+
+.stats-item p {
+    color: var(--color-2);
+}
+
+.stats-item h2 {
+    color: var(--color-black);
+}
+
+.stats-item i {
+    font-size: 2rem;
+    color: var(--color-1);
+}
+
+.title-content {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+/* End section Nous continuons à augmenter */
+
 /* -----  SECTION ABOUT US ------ */
  /* START */
 
@@ -22,6 +353,10 @@
     font-weight: bold
   }
   
+  .text {
+      color: #000;
+  }
+
   #button1 {
     background-color: White; 
     color: #34C4D3; 
@@ -263,9 +598,9 @@ h2{
 }
 
 
-.collapse {
+/* .collapse {
   dis
-}
+} */
 
 
 }
@@ -313,14 +648,27 @@ h2{
   }
  
 
-  .button{
+  .Heading .button{
       background-color: rgb(11, 214, 245);
       border-radius: 9px;
+      color: #fff;
       padding: 16px 32px 16px 32px;
       font-size: 16px;
       text-transform: uppercase;
       font-weight: 400;
   }
+
+  .Heading .button:hover{
+    background-color: rgb(4, 145, 167);
+    border-radius: 9px;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 32px 16px 32px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
   /* END HERO HEADER */
   /*  Start testimonials Section  */
 
@@ -385,3 +733,4 @@ h2{
     margin-bottom: -35px;
   }
     /*  Start testimonials Section  */
+>>>>>>> 5c18ce52e67ad72656642aeaba2becdddc36b4a6
