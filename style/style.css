@@ -28,6 +28,33 @@
   .navbar-dark .navbar-nav .nav-link:hover {
     color: red!important;
   }
+.activeLink{
+  color: red;
+}
+
+@media only screen and (max-width: 990px)
+{
+
+  
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+.collapse {
+  dis
+}
+
+
+}
+
 
   
   /* end navigation */
@@ -72,10 +99,8 @@
  
 
   .button{
-      background-color: black;
-      border: 1px solid white;
-      opacity: .5;
-      border-radius: 2px;
+      background-color: rgb(11, 214, 245);
+      border-radius: 9px;
       padding: 16px 32px 16px 32px;
       font-size: 16px;
       text-transform: uppercase;
@@ -100,10 +125,11 @@
     top: 2rem;
   }
   .conainer-testimonials{
-    width: 100%;
+    width: 1fr;
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 
 
