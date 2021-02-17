@@ -11,11 +11,12 @@
     <link rel = "preconnect" href = "https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <title>youcode agency</title>
 </head>
 <body>
@@ -90,15 +91,15 @@
                     <div class="slide"><img src="images/youtube.png" alt="logo"></div>
                 </section>
             </div>   
-               
+
             <script>
             
             $(document).ready(function(){
                 $('.customer-logos').slick({
-                    slidesToShow: 6,
+                    slidesToShow: 5,
                     slidesToScroll: 1,
                     autoplay: true,
-                    autoplaySpeed: 1500,
+                    autoplaySpeed: 500,
                     arrows: false,
                     dots: false,
                     pauseOnHover:false,
@@ -110,7 +111,7 @@
                     }, {
                         breakpoint: 520,
                         setting: {
-                            slidesToShow: 3
+                            slidesToShow: 6
                         }
                     }]
                 });
