@@ -3,8 +3,8 @@
 
 
   .about-us{
-         width: 76%;
-         margin-top: 7%;
+         /* width: 76%;
+         margin-top: 7%; */
     
 }
   .button {
@@ -22,20 +22,20 @@
     font-weight: bold
   }
   
-  .button1 {
+  #button1 {
     background-color: White; 
     color: #34C4D3; 
     border: 2px solid #34C4D3;
   }
   
-  .button1:hover {
+  #button1:hover {
     background-color: #34C4D3;
     color: white;
     border: 2px solid #34C4D3;
 
   }
 
-  button.button.button1{
+  button.button#button1{
     margin-left: 27%;
     margin-top: 4%;
   }
@@ -74,7 +74,7 @@ body{
     background: #eff3f8;
 }
 .containerC{
-    padding-top: 150px;
+    /* padding-top: 150px; */
 }
 h2{
     text-align: center;
@@ -124,4 +124,237 @@ h2{
 /* END */
 
 
+.service-card-icon {
+    width: 20%;
+    float: left;
+}
 
+.service-card-icon > i {
+    color: #34C4D3;
+    font-size: 25px;
+    padding-top: 30px;
+}
+.service-card-icon > i:hover {
+    color: #64707b;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.box-content{
+    padding: 64px 0;
+}
+.box-second{
+    padding: 0 0 64px 0;
+}
+
+.service-card-info {
+    width: 80%;
+    display: inline-block;
+}
+
+.service-paragraphe {
+    font-size: 16px;
+    font-weight: 300;
+    color: #64707B;
+}
+.title-content {
+    text-align: center;
+}
+.service-title {
+    color: #41464B;
+    font-size: 32px;
+    /* font-weight: 700; */
+    
+}
+
+.underline {
+    width: 80px;
+    height: 3px;
+    background-color: black;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+ img{
+    width: 100%;
+} 
+
+.first-row{
+    margin-bottom: 32px;
+}
+@media(max-width:770px){
+    .first-row >div{
+    padding-top: 24px;
+    }
+    .second-row{
+        display: none;
+    }
+}
+.project{
+    position: relative;
+}
+.project>a{
+    position: absolute;
+    color: #41464B;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 50%;
+    
+    background-color: white;
+    opacity: 0.8;
+    padding: 8px;
+    text-decoration: none;
+    float: right;
+}
+.project>a:hover{
+    color: #34C4D3;
+    background-color: #41464B;
+}
+
+    /* over */
+    .over{
+      position: absolute;
+      height: 100%;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #00000063;
+     }
+       /* over */
+/* start navigation */
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    background-color: rgba(0,0,0,0.8)!important;
+  }
+  .navbar-brand img {
+    height: 2rem;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    padding-top: .8rem;
+  }
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: red!important;
+  }
+
+  
+  /* end navigation */
+  /* Start HERO HEADER */
+  .cover {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      display: table;
+      z-index: 1;
+    }
+    .content {
+      clip: rect(0, auto, 100vh, 0);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    .content-inner {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      opacity: 3;
+      background-size: cover;
+      background-position: center center;
+      background-image: url(../images/pexels-soumil-kumar-735911.jpg) ;
+    }
+  .Heading{
+      width: 100%;
+      top: 40%;
+      position: absolute;
+      color: #fff;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 700;
+      z-index: 1;
+  }
+  .Heading h1 {
+      letter-spacing: .4rem;
+      padding-bottom: 1rem;
+      text-shadow:  3px 3px 3px black;
+  }
+ 
+
+  .button{
+      background-color: black;
+      border: 1px solid white;
+      opacity: .5;
+      border-radius: 2px;
+      padding: 16px 32px 16px 32px;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 400;
+  }
+  /* END HERO HEADER */
+  /*  Start testimonials Section  */
+
+  .Testimonals{
+    background-image: url(../images/Testimonial-bg-image_002.jpg);
+    background-size: cover;
+    position: relative;
+    margin: auto ;
+    width: 100%;
+    height: 70vh;  
+    padding-bottom: 4rem;  
+  }
+  .title h1 {
+    color: azure;
+    position: relative;
+    z-index: 1;
+    top: 2rem;
+  }
+  .conainer-testimonials{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .carousel-inner{
+    margin: auto;
+    color: seashell;
+  
+  }
+  .img-area{
+    width: 120px;
+    height: 120px;
+    margin: 20px auto 0 ;
+    border: 1px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .img-area img{
+    width: 100%;
+  }
+  .testimonial-description{
+    padding: 5px ;
+    color: blanchedalmond;
+    
+  }
+  .testimonial-description h3 {
+
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    margin-top: 5px;
+  }
+  .testimonial-description p {
+    font-size: 18px;
+    margin: auto;
+    width: 70%;
+  }
+  .carousel-indicators{
+    margin-bottom: -35px;
+  }
+    /*  Start testimonials Section  */
