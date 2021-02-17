@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css ">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
     <link rel="stylesheet" href="style/style.css">
     <link rel = "preconnect" href = "https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
     <link rel="stylesheet" href="style/style.css">
     <title>youcode agency</title>
 </head>
@@ -163,7 +162,30 @@
         
         <!-- End Home Section -->
         <section class="services"></section>
-        <section class="about-us"></section>
+        <!-- ------------------ABOUT START -->
+        <section class="about-us py-5 " id="about-us">
+            <div class="container-fluid mt-5">
+            <div class="row">
+
+                <div class="col-md-6 px-5" class="colum">
+                    <h1 class="text1" class='text-success'  >Qui sommes nous</h1>
+                    <hr>
+                    <div class="container">
+                    <p class="text" >Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etae magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="text" >Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <button class="button " id="button1">No realisations</button>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="http://themebubble.com/demo/marketingpro/wp-content/uploads/2016/10/seo-slide.png "alt="">
+                </div>
+
+            </div>
+
+        </div>
+        </section>
+               <!-- ------------------ABOUT END -->
         <section class="realisation">
             <div class="box-content box-second">
                 <div class="title-content">
@@ -241,7 +263,24 @@
             </div>
         </section>
         <section class="equipe"></section>
-        <section class="clients"></section>
+        <!-- ------------------ clients START -->
+        <section class="clients">
+
+            <div class="containerC">
+                <h2 class="text-center font-weight-bold">Nos clients</h2>
+                <section class="customer-logos slider">
+                    <div class="slide"><img src="images/adidas.png" alt="logo"></div>
+                    <div class="slide"><img src="images/facebook.png" alt="logo"></div>
+                    <div class="slide"><img src="images/google.png" alt="logo"></div>
+                    <div class="slide"><img src="images/instagram.png" alt="logo"></div>
+                    <div class="slide"><img src="images/nike.png" alt="logo"></div>
+                    <div class="slide"><img src="images/twitter.png" alt="logo"></div>
+                    <div class="slide"><img src="images/uber.png" alt="logo"></div>
+                    <div class="slide"><img src="images/youtube.png" alt="logo"></div>
+                </section>
+            </div>   
+        </section>
+                <!-- ------------------ clients END -->
         <!-- Start testimonials Section -->
         <section id="testimonial" class="Testimonals">
             <div class="title text-center">
@@ -317,7 +356,10 @@
         </section>
        <div class="copyright"></div>
     </footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
@@ -325,9 +367,37 @@
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
     <script src="script.js" ></script>
-
+    <script>
+            
+        $(document).ready(function(){
+            $('.customer-logos').slick({
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 500,
+                arrows: false,
+                dots: false,
+                pauseOnHover:false,
+                responsive: [{
+                    breakpoint: 768,
+                    setting: {
+                        slidesToShow:4
+                    }
+                }, {
+                    breakpoint: 520,
+                    setting: {
+                        slidesToShow: 6
+                    }
+                }]
+            });
+        });
+    
+        </script>
 
 </body>
 </html>
