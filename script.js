@@ -16,3 +16,4 @@ typewriter.typeString('On vous rappelle sous 24h <br/>')
         speed: 1000,
     });
     console.log(scroll);
+
