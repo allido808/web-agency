@@ -17,6 +17,7 @@
     --color-white: #fff;    /* texte avec un background noir */
 }
 
+/* start footer */
 
 a {
     color: var(--color-1);
@@ -108,11 +109,13 @@ a {
     color: var(--color-white);
 }
 
+/* end footer */
+
+/* start section pricing */
 
 section.pricing {
-    /* background: #007bff; */
-    /* background: linear-gradient(to right, #0062E6, #33AEFF); */
-  }
+
+}
   
   .pricing .card {
     margin: 20px 0;
@@ -145,6 +148,13 @@ section.pricing {
   .pricing ul li {
     margin-bottom: 1rem;
   }
+
+  .pricing .header-section .title {
+    font-weight: 700;
+    font-size: 45px;
+    margin: 50px 0;
+    text-align: center;
+}
   
   .pricing .text-muted {
     opacity: 0.7;
@@ -174,9 +184,11 @@ section.pricing {
       opacity: 1;
     }
   }
+  
 
+/* end section pricing */
 
- /* ---- */
+/* start section Equipes */
 
  p,a,h1,h2,h3,h4 {
 	margin: 0;
@@ -271,3 +283,47 @@ section.pricing {
 .section-team .single-person:hover .speciality {
 	color: #fff;
 }
+
+/* End section Equipes */
+
+/* start section Nous continuons à augmenter */
+
+.learning .header-section .title {
+    font-weight: 700;
+    font-size: 45px;
+    margin: 50px 0;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.box-content {
+    padding: 20px 0;
+    margin-top: 100px;
+    background: var(--color-1);
+    text-align: center;
+}
+
+.stats-item {
+    margin-bottom: 50px;
+}
+
+.stats-item p {
+    color: var(--color-3);
+}
+
+.stats-item h2 {
+    color: var(--color-white);
+}
+
+.stats-item i {
+    font-size: 2rem;
+    color: var(--color-white);
+}
+
+.title-content {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+/* End section Nous continuons à augmenter */
